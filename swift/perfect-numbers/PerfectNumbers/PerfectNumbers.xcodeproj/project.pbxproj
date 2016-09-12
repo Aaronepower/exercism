@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		938827AC1D474D6F0040D201 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938827AB1D474D6F0040D201 /* main.swift */; };
+		938827B91D474D7E0040D201 /* PerfectNumbersTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938827B81D474D7E0040D201 /* PerfectNumbersTest.swift */; };
+		938827BE1D4753950040D201 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938827AB1D474D6F0040D201 /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		938827A61D474D6F0040D201 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		938827A81D474D6F0040D201 /* PerfectNumbers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PerfectNumbers; sourceTree = BUILT_PRODUCTS_DIR; };
+		938827AB1D474D6F0040D201 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		938827B61D474D7E0040D201 /* PerfectNumbersTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerfectNumbersTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		938827B81D474D7E0040D201 /* PerfectNumbersTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectNumbersTest.swift; sourceTree = "<group>"; };
+		938827BA1D474D7E0040D201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		938827A51D474D6F0040D201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		938827B31D474D7E0040D201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9388279F1D474D6F0040D201 = {
+			isa = PBXGroup;
+			children = (
+				938827AA1D474D6F0040D201 /* PerfectNumbers */,
+				938827B71D474D7E0040D201 /* PerfectNumbersTest */,
+				938827A91D474D6F0040D201 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		938827A91D474D6F0040D201 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				938827A81D474D6F0040D201 /* PerfectNumbers */,
+				938827B61D474D7E0040D201 /* PerfectNumbersTest.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		938827AA1D474D6F0040D201 /* PerfectNumbers */ = {
+			isa = PBXGroup;
+			children = (
+				938827AB1D474D6F0040D201 /* main.swift */,
+			);
+			path = PerfectNumbers;
+			sourceTree = "<group>";
+		};
+		938827B71D474D7E0040D201 /* PerfectNumbersTest */ = {
+			isa = PBXGroup;
+			children = (
+				938827B81D474D7E0040D201 /* PerfectNumbersTest.swift */,
+				938827BA1D474D7E0040D201 /* Info.plist */,
+			);
+			path = PerfectNumbersTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		938827A71D474D6F0040D201 /* PerfectNumbers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 938827AF1D474D6F0040D201 /* Build configuration list for PBXNativeTarget "PerfectNumbers" */;
+			buildPhases = (
+				938827A41D474D6F0040D201 /* Sources */,
+				938827A51D474D6F0040D201 /* Frameworks */,
+				938827A61D474D6F0040D201 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerfectNumbers;
+			productName = PerfectNumbers;
+			productReference = 938827A81D474D6F0040D201 /* PerfectNumbers */;
+			productType = "com.apple.product-type.tool";
+		};
+		938827B51D474D7E0040D201 /* PerfectNumbersTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 938827BB1D474D7E0040D201 /* Build configuration list for PBXNativeTarget "PerfectNumbersTest" */;
+			buildPhases = (
+				938827B21D474D7E0040D201 /* Sources */,
+				938827B31D474D7E0040D201 /* Frameworks */,
+				938827B41D474D7E0040D201 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerfectNumbersTest;
+			productName = PerfectNumbersTest;
+			productReference = 938827B61D474D7E0040D201 /* PerfectNumbersTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		938827A01D474D6F0040D201 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Aaron Power";
+				TargetAttributes = {
+					938827A71D474D6F0040D201 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					938827B51D474D7E0040D201 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 938827A31D474D6F0040D201 /* Build configuration list for PBXProject "PerfectNumbers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9388279F1D474D6F0040D201;
+			productRefGroup = 938827A91D474D6F0040D201 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				938827A71D474D6F0040D201 /* PerfectNumbers */,
+				938827B51D474D7E0040D201 /* PerfectNumbersTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		938827B41D474D7E0040D201 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		938827A41D474D6F0040D201 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938827AC1D474D6F0040D201 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		938827B21D474D7E0040D201 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938827BE1D4753950040D201 /* main.swift in Sources */,
+				938827B91D474D7E0040D201 /* PerfectNumbersTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		938827AD1D474D6F0040D201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		938827AE1D474D6F0040D201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		938827B01D474D6F0040D201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		938827B11D474D6F0040D201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		938827BC1D474D7E0040D201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PerfectNumbersTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = power.PerfectNumbersTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		938827BD1D474D7E0040D201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PerfectNumbersTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = power.PerfectNumbersTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		938827A31D474D6F0040D201 /* Build configuration list for PBXProject "PerfectNumbers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				938827AD1D474D6F0040D201 /* Debug */,
+				938827AE1D474D6F0040D201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		938827AF1D474D6F0040D201 /* Build configuration list for PBXNativeTarget "PerfectNumbers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				938827B01D474D6F0040D201 /* Debug */,
+				938827B11D474D6F0040D201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		938827BB1D474D7E0040D201 /* Build configuration list for PBXNativeTarget "PerfectNumbersTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				938827BC1D474D7E0040D201 /* Debug */,
+				938827BD1D474D7E0040D201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 938827A01D474D6F0040D201 /* Project object */;
+}

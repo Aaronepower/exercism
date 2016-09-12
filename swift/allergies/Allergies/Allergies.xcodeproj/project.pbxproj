@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		938827CC1D4758F40040D201 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938827CB1D4758F40040D201 /* main.swift */; };
+		938827D91D477FE70040D201 /* AllergiesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938827D81D477FE70040D201 /* AllergiesTest.swift */; };
+		93C060D21D489BD4001BA25C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938827CB1D4758F40040D201 /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		938827C61D4758F40040D201 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		938827C81D4758F40040D201 /* Allergies */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Allergies; sourceTree = BUILT_PRODUCTS_DIR; };
+		938827CB1D4758F40040D201 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		938827D61D477FE70040D201 /* AllergiesTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllergiesTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		938827D81D477FE70040D201 /* AllergiesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllergiesTest.swift; sourceTree = "<group>"; };
+		938827DA1D477FE70040D201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		938827C51D4758F40040D201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		938827D31D477FE70040D201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		938827BF1D4758F40040D201 = {
+			isa = PBXGroup;
+			children = (
+				938827CA1D4758F40040D201 /* Allergies */,
+				938827D71D477FE70040D201 /* AllergiesTest */,
+				938827C91D4758F40040D201 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		938827C91D4758F40040D201 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				938827C81D4758F40040D201 /* Allergies */,
+				938827D61D477FE70040D201 /* AllergiesTest.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		938827CA1D4758F40040D201 /* Allergies */ = {
+			isa = PBXGroup;
+			children = (
+				938827CB1D4758F40040D201 /* main.swift */,
+			);
+			path = Allergies;
+			sourceTree = "<group>";
+		};
+		938827D71D477FE70040D201 /* AllergiesTest */ = {
+			isa = PBXGroup;
+			children = (
+				938827D81D477FE70040D201 /* AllergiesTest.swift */,
+				938827DA1D477FE70040D201 /* Info.plist */,
+			);
+			path = AllergiesTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		938827C71D4758F40040D201 /* Allergies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 938827CF1D4758F40040D201 /* Build configuration list for PBXNativeTarget "Allergies" */;
+			buildPhases = (
+				938827C41D4758F40040D201 /* Sources */,
+				938827C51D4758F40040D201 /* Frameworks */,
+				938827C61D4758F40040D201 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Allergies;
+			productName = Allergies;
+			productReference = 938827C81D4758F40040D201 /* Allergies */;
+			productType = "com.apple.product-type.tool";
+		};
+		938827D51D477FE70040D201 /* AllergiesTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 938827DB1D477FE70040D201 /* Build configuration list for PBXNativeTarget "AllergiesTest" */;
+			buildPhases = (
+				938827D21D477FE70040D201 /* Sources */,
+				938827D31D477FE70040D201 /* Frameworks */,
+				938827D41D477FE70040D201 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AllergiesTest;
+			productName = AllergiesTest;
+			productReference = 938827D61D477FE70040D201 /* AllergiesTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		938827C01D4758F40040D201 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Aaron Power";
+				TargetAttributes = {
+					938827C71D4758F40040D201 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					938827D51D477FE70040D201 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 938827C31D4758F40040D201 /* Build configuration list for PBXProject "Allergies" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 938827BF1D4758F40040D201;
+			productRefGroup = 938827C91D4758F40040D201 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				938827C71D4758F40040D201 /* Allergies */,
+				938827D51D477FE70040D201 /* AllergiesTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		938827D41D477FE70040D201 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		938827C41D4758F40040D201 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938827CC1D4758F40040D201 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		938827D21D477FE70040D201 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C060D21D489BD4001BA25C /* main.swift in Sources */,
+				938827D91D477FE70040D201 /* AllergiesTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		938827CD1D4758F40040D201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		938827CE1D4758F40040D201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		938827D01D4758F40040D201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		938827D11D4758F40040D201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		938827DC1D477FE70040D201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AllergiesTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = power.AllergiesTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		938827DD1D477FE70040D201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AllergiesTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = power.AllergiesTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		938827C31D4758F40040D201 /* Build configuration list for PBXProject "Allergies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				938827CD1D4758F40040D201 /* Debug */,
+				938827CE1D4758F40040D201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		938827CF1D4758F40040D201 /* Build configuration list for PBXNativeTarget "Allergies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				938827D01D4758F40040D201 /* Debug */,
+				938827D11D4758F40040D201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		938827DB1D477FE70040D201 /* Build configuration list for PBXNativeTarget "AllergiesTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				938827DC1D477FE70040D201 /* Debug */,
+				938827DD1D477FE70040D201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 938827C01D4758F40040D201 /* Project object */;
+}

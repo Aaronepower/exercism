@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9348A51B1D48FF0F0036A708 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9348A51A1D48FF0F0036A708 /* main.swift */; };
+		9348A5281D48FF1D0036A708 /* AccumlateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9348A5271D48FF1D0036A708 /* AccumlateTest.swift */; };
+		9348A52D1D4901680036A708 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9348A51A1D48FF0F0036A708 /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9348A5151D48FF0F0036A708 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9348A5171D48FF0F0036A708 /* Accumulate */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Accumulate; sourceTree = BUILT_PRODUCTS_DIR; };
+		9348A51A1D48FF0F0036A708 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9348A5251D48FF1D0036A708 /* AccumlateTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccumlateTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9348A5271D48FF1D0036A708 /* AccumlateTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccumlateTest.swift; sourceTree = "<group>"; };
+		9348A5291D48FF1D0036A708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9348A5141D48FF0F0036A708 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9348A5221D48FF1D0036A708 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9348A50E1D48FF0F0036A708 = {
+			isa = PBXGroup;
+			children = (
+				9348A5191D48FF0F0036A708 /* Accumulate */,
+				9348A5261D48FF1D0036A708 /* AccumlateTest */,
+				9348A5181D48FF0F0036A708 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9348A5181D48FF0F0036A708 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9348A5171D48FF0F0036A708 /* Accumulate */,
+				9348A5251D48FF1D0036A708 /* AccumlateTest.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9348A5191D48FF0F0036A708 /* Accumulate */ = {
+			isa = PBXGroup;
+			children = (
+				9348A51A1D48FF0F0036A708 /* main.swift */,
+			);
+			path = Accumulate;
+			sourceTree = "<group>";
+		};
+		9348A5261D48FF1D0036A708 /* AccumlateTest */ = {
+			isa = PBXGroup;
+			children = (
+				9348A5271D48FF1D0036A708 /* AccumlateTest.swift */,
+				9348A5291D48FF1D0036A708 /* Info.plist */,
+			);
+			path = AccumlateTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9348A5161D48FF0F0036A708 /* Accumulate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9348A51E1D48FF0F0036A708 /* Build configuration list for PBXNativeTarget "Accumulate" */;
+			buildPhases = (
+				9348A5131D48FF0F0036A708 /* Sources */,
+				9348A5141D48FF0F0036A708 /* Frameworks */,
+				9348A5151D48FF0F0036A708 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Accumulate;
+			productName = Accumulate;
+			productReference = 9348A5171D48FF0F0036A708 /* Accumulate */;
+			productType = "com.apple.product-type.tool";
+		};
+		9348A5241D48FF1D0036A708 /* AccumlateTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9348A52A1D48FF1D0036A708 /* Build configuration list for PBXNativeTarget "AccumlateTest" */;
+			buildPhases = (
+				9348A5211D48FF1D0036A708 /* Sources */,
+				9348A5221D48FF1D0036A708 /* Frameworks */,
+				9348A5231D48FF1D0036A708 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AccumlateTest;
+			productName = AccumlateTest;
+			productReference = 9348A5251D48FF1D0036A708 /* AccumlateTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9348A50F1D48FF0F0036A708 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Aaron Power";
+				TargetAttributes = {
+					9348A5161D48FF0F0036A708 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					9348A5241D48FF1D0036A708 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9348A5121D48FF0F0036A708 /* Build configuration list for PBXProject "Accumulate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9348A50E1D48FF0F0036A708;
+			productRefGroup = 9348A5181D48FF0F0036A708 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9348A5161D48FF0F0036A708 /* Accumulate */,
+				9348A5241D48FF1D0036A708 /* AccumlateTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9348A5231D48FF1D0036A708 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9348A5131D48FF0F0036A708 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9348A51B1D48FF0F0036A708 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9348A5211D48FF1D0036A708 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9348A52D1D4901680036A708 /* main.swift in Sources */,
+				9348A5281D48FF1D0036A708 /* AccumlateTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9348A51C1D48FF0F0036A708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9348A51D1D48FF0F0036A708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9348A51F1D48FF0F0036A708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9348A5201D48FF0F0036A708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9348A52B1D48FF1D0036A708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AccumlateTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = power.AccumlateTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9348A52C1D48FF1D0036A708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AccumlateTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = power.AccumlateTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9348A5121D48FF0F0036A708 /* Build configuration list for PBXProject "Accumulate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9348A51C1D48FF0F0036A708 /* Debug */,
+				9348A51D1D48FF0F0036A708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9348A51E1D48FF0F0036A708 /* Build configuration list for PBXNativeTarget "Accumulate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9348A51F1D48FF0F0036A708 /* Debug */,
+				9348A5201D48FF0F0036A708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9348A52A1D48FF1D0036A708 /* Build configuration list for PBXNativeTarget "AccumlateTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9348A52B1D48FF1D0036A708 /* Debug */,
+				9348A52C1D48FF1D0036A708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9348A50F1D48FF0F0036A708 /* Project object */;
+}

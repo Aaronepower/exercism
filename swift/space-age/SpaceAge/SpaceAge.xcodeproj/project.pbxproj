@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		939D6D811D4A18320075EC82 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939D6D801D4A18320075EC82 /* main.swift */; };
+		939D6D8E1D4A183C0075EC82 /* SpaceAgeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939D6D8D1D4A183C0075EC82 /* SpaceAgeTest.swift */; };
+		939D6D931D4A18510075EC82 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939D6D801D4A18320075EC82 /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		939D6D7B1D4A18310075EC82 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		939D6D7D1D4A18310075EC82 /* SpaceAge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SpaceAge; sourceTree = BUILT_PRODUCTS_DIR; };
+		939D6D801D4A18320075EC82 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		939D6D8B1D4A183C0075EC82 /* SpaceAgeTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceAgeTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		939D6D8D1D4A183C0075EC82 /* SpaceAgeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceAgeTest.swift; sourceTree = "<group>"; };
+		939D6D8F1D4A183C0075EC82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		939D6D7A1D4A18310075EC82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939D6D881D4A183C0075EC82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		939D6D741D4A18310075EC82 = {
+			isa = PBXGroup;
+			children = (
+				939D6D7F1D4A18310075EC82 /* SpaceAge */,
+				939D6D8C1D4A183C0075EC82 /* SpaceAgeTest */,
+				939D6D7E1D4A18310075EC82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		939D6D7E1D4A18310075EC82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				939D6D7D1D4A18310075EC82 /* SpaceAge */,
+				939D6D8B1D4A183C0075EC82 /* SpaceAgeTest.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		939D6D7F1D4A18310075EC82 /* SpaceAge */ = {
+			isa = PBXGroup;
+			children = (
+				939D6D801D4A18320075EC82 /* main.swift */,
+			);
+			path = SpaceAge;
+			sourceTree = "<group>";
+		};
+		939D6D8C1D4A183C0075EC82 /* SpaceAgeTest */ = {
+			isa = PBXGroup;
+			children = (
+				939D6D8D1D4A183C0075EC82 /* SpaceAgeTest.swift */,
+				939D6D8F1D4A183C0075EC82 /* Info.plist */,
+			);
+			path = SpaceAgeTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		939D6D7C1D4A18310075EC82 /* SpaceAge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 939D6D841D4A18320075EC82 /* Build configuration list for PBXNativeTarget "SpaceAge" */;
+			buildPhases = (
+				939D6D791D4A18310075EC82 /* Sources */,
+				939D6D7A1D4A18310075EC82 /* Frameworks */,
+				939D6D7B1D4A18310075EC82 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpaceAge;
+			productName = SpaceAge;
+			productReference = 939D6D7D1D4A18310075EC82 /* SpaceAge */;
+			productType = "com.apple.product-type.tool";
+		};
+		939D6D8A1D4A183C0075EC82 /* SpaceAgeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 939D6D901D4A183C0075EC82 /* Build configuration list for PBXNativeTarget "SpaceAgeTest" */;
+			buildPhases = (
+				939D6D871D4A183C0075EC82 /* Sources */,
+				939D6D881D4A183C0075EC82 /* Frameworks */,
+				939D6D891D4A183C0075EC82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpaceAgeTest;
+			productName = SpaceAgeTest;
+			productReference = 939D6D8B1D4A183C0075EC82 /* SpaceAgeTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		939D6D751D4A18310075EC82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Aaron Power";
+				TargetAttributes = {
+					939D6D7C1D4A18310075EC82 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					939D6D8A1D4A183C0075EC82 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 939D6D781D4A18310075EC82 /* Build configuration list for PBXProject "SpaceAge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 939D6D741D4A18310075EC82;
+			productRefGroup = 939D6D7E1D4A18310075EC82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				939D6D7C1D4A18310075EC82 /* SpaceAge */,
+				939D6D8A1D4A183C0075EC82 /* SpaceAgeTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		939D6D891D4A183C0075EC82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		939D6D791D4A18310075EC82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939D6D811D4A18320075EC82 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939D6D871D4A183C0075EC82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939D6D931D4A18510075EC82 /* main.swift in Sources */,
+				939D6D8E1D4A183C0075EC82 /* SpaceAgeTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		939D6D821D4A18320075EC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		939D6D831D4A18320075EC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		939D6D851D4A18320075EC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		939D6D861D4A18320075EC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		939D6D911D4A183C0075EC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SpaceAgeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = power.SpaceAgeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		939D6D921D4A183C0075EC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SpaceAgeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = power.SpaceAgeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		939D6D781D4A18310075EC82 /* Build configuration list for PBXProject "SpaceAge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939D6D821D4A18320075EC82 /* Debug */,
+				939D6D831D4A18320075EC82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		939D6D841D4A18320075EC82 /* Build configuration list for PBXNativeTarget "SpaceAge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939D6D851D4A18320075EC82 /* Debug */,
+				939D6D861D4A18320075EC82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		939D6D901D4A183C0075EC82 /* Build configuration list for PBXNativeTarget "SpaceAgeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939D6D911D4A183C0075EC82 /* Debug */,
+				939D6D921D4A183C0075EC82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 939D6D751D4A18310075EC82 /* Project object */;
+}

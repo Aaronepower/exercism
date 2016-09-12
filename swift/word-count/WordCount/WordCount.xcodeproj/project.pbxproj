@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9328A5C81D420C8400E62279 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9328A5C71D420C8400E62279 /* main.swift */; };
+		9328A5D51D420C9D00E62279 /* WordCountTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9328A5D41D420C9D00E62279 /* WordCountTest.swift */; };
+		9328A5DA1D420CB600E62279 /* WordCountTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9328A5D41D420C9D00E62279 /* WordCountTest.swift */; };
+		9328A5DB1D420CB900E62279 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9328A5C71D420C8400E62279 /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9328A5C21D420C8400E62279 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9328A5C41D420C8400E62279 /* WordCount */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WordCount; sourceTree = BUILT_PRODUCTS_DIR; };
+		9328A5C71D420C8400E62279 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9328A5D21D420C9D00E62279 /* WordCountTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordCountTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9328A5D41D420C9D00E62279 /* WordCountTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCountTest.swift; sourceTree = "<group>"; };
+		9328A5D61D420C9D00E62279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9328A5C11D420C8400E62279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9328A5CF1D420C9D00E62279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9328A5BB1D420C8400E62279 = {
+			isa = PBXGroup;
+			children = (
+				9328A5C61D420C8400E62279 /* WordCount */,
+				9328A5D31D420C9D00E62279 /* WordCountTest */,
+				9328A5C51D420C8400E62279 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9328A5C51D420C8400E62279 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9328A5C41D420C8400E62279 /* WordCount */,
+				9328A5D21D420C9D00E62279 /* WordCountTest.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9328A5C61D420C8400E62279 /* WordCount */ = {
+			isa = PBXGroup;
+			children = (
+				9328A5C71D420C8400E62279 /* main.swift */,
+			);
+			path = WordCount;
+			sourceTree = "<group>";
+		};
+		9328A5D31D420C9D00E62279 /* WordCountTest */ = {
+			isa = PBXGroup;
+			children = (
+				9328A5D41D420C9D00E62279 /* WordCountTest.swift */,
+				9328A5D61D420C9D00E62279 /* Info.plist */,
+			);
+			path = WordCountTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9328A5C31D420C8400E62279 /* WordCount */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9328A5CB1D420C8400E62279 /* Build configuration list for PBXNativeTarget "WordCount" */;
+			buildPhases = (
+				9328A5C01D420C8400E62279 /* Sources */,
+				9328A5C11D420C8400E62279 /* Frameworks */,
+				9328A5C21D420C8400E62279 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordCount;
+			productName = WordCount;
+			productReference = 9328A5C41D420C8400E62279 /* WordCount */;
+			productType = "com.apple.product-type.tool";
+		};
+		9328A5D11D420C9D00E62279 /* WordCountTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9328A5D71D420C9D00E62279 /* Build configuration list for PBXNativeTarget "WordCountTest" */;
+			buildPhases = (
+				9328A5CE1D420C9D00E62279 /* Sources */,
+				9328A5CF1D420C9D00E62279 /* Frameworks */,
+				9328A5D01D420C9D00E62279 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordCountTest;
+			productName = WordCountTest;
+			productReference = 9328A5D21D420C9D00E62279 /* WordCountTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9328A5BC1D420C8400E62279 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Aaron Power";
+				TargetAttributes = {
+					9328A5C31D420C8400E62279 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					9328A5D11D420C9D00E62279 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9328A5BF1D420C8400E62279 /* Build configuration list for PBXProject "WordCount" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9328A5BB1D420C8400E62279;
+			productRefGroup = 9328A5C51D420C8400E62279 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9328A5C31D420C8400E62279 /* WordCount */,
+				9328A5D11D420C9D00E62279 /* WordCountTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9328A5D01D420C9D00E62279 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9328A5C01D420C8400E62279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9328A5C81D420C8400E62279 /* main.swift in Sources */,
+				9328A5DA1D420CB600E62279 /* WordCountTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9328A5CE1D420C9D00E62279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9328A5DB1D420CB900E62279 /* main.swift in Sources */,
+				9328A5D51D420C9D00E62279 /* WordCountTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9328A5C91D420C8400E62279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9328A5CA1D420C8400E62279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9328A5CC1D420C8400E62279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9328A5CD1D420C8400E62279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9328A5D81D420C9D00E62279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WordCountTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = power.WordCountTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9328A5D91D420C9D00E62279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WordCountTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = power.WordCountTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9328A5BF1D420C8400E62279 /* Build configuration list for PBXProject "WordCount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9328A5C91D420C8400E62279 /* Debug */,
+				9328A5CA1D420C8400E62279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9328A5CB1D420C8400E62279 /* Build configuration list for PBXNativeTarget "WordCount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9328A5CC1D420C8400E62279 /* Debug */,
+				9328A5CD1D420C8400E62279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9328A5D71D420C9D00E62279 /* Build configuration list for PBXNativeTarget "WordCountTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9328A5D81D420C9D00E62279 /* Debug */,
+				9328A5D91D420C9D00E62279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9328A5BC1D420C8400E62279 /* Project object */;
+}
